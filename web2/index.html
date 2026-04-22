@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intan Desya Maidah | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .gradient-text { background: linear-gradient(90deg, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-200">
+
+    <nav class="fixed w-full z-50 bg-slate-950/80 backdrop-blur-lg border-b border-slate-800">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="font-extrabold text-xl tracking-tighter text-white">IDM.</span>
+            <div class="flex gap-6 text-sm font-medium text-slate-400">
+                <a href="#about" class="hover:text-white transition">About</a>
+                <a href="#experience" class="hover:text-white transition">Experience</a>
+                <a href="#skills" class="hover:text-white transition">Skills</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about" class="pt-32 pb-20 px-6">
+        <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-12">
+            <div class="relative group">
+                <div class="absolute -inset-1 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-2xl blur opacity-30 group-hover:opacity-60 transition duration-500"></div>
+                <div class="relative w-64 h-64 rounded-2xl overflow-hidden border border-slate-800 shadow-2xl">
+                    <img src="intan.jpeg" alt="Intan Desya Maidah" class="w-full h-full object-cover transform group-hover:scale-105 transition duration-500">
+                </div>
+            </div>
+
+            <div class="flex-1">
+                <h1 class="text-5xl font-extrabold mb-4 text-white">Intan Desya Maidah</h1>
+                <p class="gradient-text font-semibold text-lg mb-4 uppercase tracking-wider">International Relations</p>
+                <p class="text-slate-400 leading-relaxed mb-8">
+                    Strategic thinker focusing on event coordination and administrative precision. Bridging the gap between global affairs and operational efficiency.
+                </p>
+                <div class="flex gap-4">
+                    <a href="mailto:intandesya28@gmail.com" class="bg-white text-slate-900 px-6 py-3 rounded-xl font-bold hover:bg-slate-200 transition">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-20 bg-slate-900/30">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-2xl font-bold mb-12 text-white">Professional Journey</h2>
+            <div class="space-y-6">
+                <div class="group p-6 rounded-2xl bg-slate-900 border border-slate-800 hover:border-blue-500/50 transition-all duration-300">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-lg font-bold text-white">Secretariat Assistant (Intern)</h3>
+                        <span class="text-blue-400 text-xs font-bold bg-blue-400/10 px-2 py-1 rounded">2025</span>
+                    </div>
+                    <p class="text-slate-400 text-sm mb-4">Jember Regent's Office</p>
+                </div>
+                <div class="group p-6 rounded-2xl bg-slate-900 border border-slate-800 hover:border-indigo-500/50 transition-all duration-300">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-lg font-bold text-white">IR League Committee</h3>
+                        <span class="text-indigo-400 text-xs font-bold bg-indigo-400/10 px-2 py-1 rounded">2024</span>
+                    </div>
+                    <p class="text-slate-400 text-sm mb-4">PDD Division</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-20">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-2xl font-bold mb-12 text-white">Core Competencies</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <div class="p-4 rounded-xl bg-slate-900 border border-slate-800 text-center hover:border-white transition">Public Speaking</div>
+                <div class="p-4 rounded-xl bg-slate-900 border border-slate-800 text-center hover:border-white transition">Time Management</div>
+                <div class="p-4 rounded-xl bg-slate-900 border border-slate-800 text-center hover:border-white transition">Leadership</div>
+                <div class="p-4 rounded-xl bg-slate-900 border border-slate-800 text-center hover:border-white transition">Microsoft Office</div>
+                <div class="p-4 rounded-xl bg-slate-900 border border-slate-800 text-center hover:border-white transition">Canva Design</div>
+                <div class="p-4 rounded-xl bg-slate-900 border border-slate-800 text-center hover:border-white transition">English Proficient</div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
